@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student-Form</title>
+    <style>
+        h2{font-family:sans-serif;
+           font-size: larger; 
+           font-weight: bold;
+           color:red;
+           text-align: center;
+           text-decoration: underline;
+        }
+        table{font-family:sans-serif;
+            font-size: medium;
+            color: red;
+            font-weight: bold;
+            background-color: black;
+            width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            border-style:solid;
+            border-color: black;
+            padding: 5%;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 1%;}
+    </style>
+</head>
+<body>
+    <h2>Student Enrollment Form</h2>
+    <form>
+        <table>
+            <a href="https://www.marvel.com/">
+            <img src="https://seeklogo.com/images/M/Marvel_Comics-logo-D489AEB9C1-seeklogo.com.png" alt="Marvel-logo" style="width: 150px;height: 75px;" class="center"></a>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="eg:John" maxlength="50" name="First Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" placeholder="eg:Doe" maxlength="50" name="Last Name">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email-id:
+                </td>
+                <td>
+                    <input type="email" placeholder="eg:tonystark@gmail.com" maxlength="100" name="Email-id">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile Number:
+                </td>
+                <td>
+                    <input type="text" placeholder="eg:9876543210" maxlength="10" name="Mobile number">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Gender:
+                </td>
+                <td>
+                    <input type="radio" name="Gender">Male
+                    <input type="radio" name="Gender">Female
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="Submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

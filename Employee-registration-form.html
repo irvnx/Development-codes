@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee-form</title>
+    <style>
+        h2{font-family:sans-serif;
+           font-size:x-large; 
+           font-weight: bold;
+           color:orangered;
+           text-align: center;
+           text-decoration: underline;
+        }
+        table{font-family:sans-serif;
+            font-size: medium;
+            color:orangered;
+            font-weight: bold;
+            background-color:black;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        th, td {
+            border-style:solid;
+            border-color:black;
+            padding: 1%;
+        }
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            padding: 1%;}
+    </style>
+</head>
+<body>
+    <h2>Employee Registration Form</h2>
+    <form>
+        <table>
+            <a href="https://www.straive.com/">
+                <img src="https://straive-images.s3.us-east-2.amazonaws.com/Straive_Logo_h100_cf5c06401d.png" alt="Straive-logo" style="width: 25%;height: 25%;" class="center"></a>
+            <tr>
+                <td>
+                    First Name:
+                </td>
+                <td>
+                    <input type="text" name="First Name" placeholder="eg:Steve" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Last Name:
+                </td>
+                <td>
+                    <input type="text" name="Last Name" placeholder="eg:Rogers" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Email-id:
+                </td>
+                <td>
+                    <input type="email" name="Email-id" placeholder="eg:tonystark@gmail.com" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    City:
+                </td>
+                <td>
+                    <input type="text" name="City" placeholder="eg:chennai" maxlength="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    State:
+                </td>
+                <td>
+                    <select>
+                        <option>Andhra Pradesh</option>
+                        <option>Arunachal Pradesh</option>
+                        <option>Assam</option>
+                        <option>Bihar</option>
+                        <option>Chhattisgarh</option>
+                        <option>Goa</option>
+                        <option>Gujarat</option>
+                        <option>Haryana</option>
+                        <option>Himachal Pradesh</option>
+                        <option>Jharkhand</option>
+                        <option>Karnataka</option>
+                        <option>Kerala</option>
+                        <option>Madhya Pradesh</option>
+                        <option>Maharashtra</option>
+                        <option>Manipur</option>
+                        <option>Meghalaya</option>
+                        <option>Mizoram</option>
+                        <option>Nagaland</option>
+                        <option>Odisha</option>
+                        <option>Punjab</option>
+                        <option>Rajasthan</option>
+                        <option>Sikkim</option>
+                        <option>Tamil Nadu</option>
+                        <option>Telangana</option>
+                        <option>Tripura</option>
+                        <option>Uttar Pradesh</option>
+                        <option>Uttarakhand</option>
+                        <option>West Bengal</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zip code:
+                </td>
+                <td>
+                    <input type="number" name="Zip code" placeholder="eg:638008" maxlength="6">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Upload Photo:
+                </td>
+                <td>
+                    <input type="file" name="Photo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Mobile Number:
+                </td>
+                <td>
+                    <input type="text" name="Mobile number" placeholder="eg:9876543210" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Languages Known:
+                </td>
+                <td>
+                    <input type="checkbox" name="lk">Tamil
+                </td>
+            </tr>
+            <tr>
+                <td>
+
+                </td>
+                <td>
+                    <input type="checkbox" name="lk">Telugu
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="checkbox" name="lk">Malayalam
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="checkbox" name="lk">English
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    
+                </td>
+                <td>
+                    <input type="checkbox" name="lk">Hindi
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Additional Information:
+                </td>
+                <td>
+                    <textarea name="add" rows="3" cols="20" placeholder="Tell us about yourself" wrap></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" name="submit">
+                    <input type="reset" name="reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
